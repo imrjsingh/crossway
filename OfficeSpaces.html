@@ -1,0 +1,519 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The Baroda Crossway</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+ 
+<script src="lib/jquery/jquery.min.js"></script>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/default.css" rel="stylesheet">
+
+<link rel="stylesheet" href="animation/styles.css" />
+ <link rel="stylesheet" href="animation/aos.css" />
+  
+  <link href="accordion/jquery-uiW.css" rel="stylesheet">
+
+ <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+ <script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(
+	function()
+	{
+		//-----------------------------------------
+		$("#carousel").carousel
+		({
+			activate: function(){}, 
+			timerAnimSlide:400,
+			itensDisplay: 4,
+			spaceBetweenItens: 10,
+			itensMove:1,
+            breakPoint:[{width:800,itensDisplay:3},{width:580,itensDisplay:1},{width:700,itensDisplay:2}],
+			responsive:true
+		});
+		
+		$("#carousel-2").carousel
+		({
+			activate: function(){}, 
+			timerAnimSlide:400,
+			itensDisplay: 3,
+			spaceBetweenItens: 10,
+			itensMove:1,
+            breakPoint:[{width:800,itensDisplay:3},{width:580,itensDisplay:1},{width:700,itensDisplay:2}],
+			responsive:true
+		});	
+		
+		
+		//-----------------------------------------
+	});
+	
+	function activate ()
+	{
+	}
+
+</script>
+<style type="text/css">
+
+.center{margin:0 auto;/* background-color:#eeeeee; padding:30px 0 200px 0*/;}
+.wrapper-center{ padding:0 10px;}
+
+@media screen and (max-width: 800px) {
+	.center{ width:100%;}
+}
+
+/*---------*/
+.carousel{ width:100%;}
+.carousel__wrapper{}
+.carousel__container{}
+.carousel__content{ overflow:hidden; height:auto; width:100%; position:relative;}
+.carousel__slider{ position:absolute;}
+.carousel__item{ position:absolute;}
+carousel__item img{}
+.carousel__navigation{}
+.carousel__nav{}
+.carousel__nav--left{}
+.carousel__nav--right{}
+/*---------*/
+
+#carousel .carousel__nav{ float:right;}
+#carousel .carousel__nav--left{ display:inline-block;}
+#carousel .carousel__nav--right{ display:inline-block;}
+#carousel .carousel__wrapper{ margin-top:20px;}
+#carousel .arrow-right{margin-left:10px;}
+
+#carousel-2{ margin-top:50px; position:relative;}
+#carousel-2 .carousel__navigation{ position:absolute; z-index:10; width:100%; left:0; top:50%; margin-top:-5px;}
+#carousel-2 .carousel__nav--left{ position:absolute; left:0;}
+#carousel-2 .carousel__nav--right{ position:absolute; right:0;}
+#carousel-2 .carousel__container{ margin:0  20px;}
+
+
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid #bbbbbb;
+}
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent; 
+	border-right:10px solid #bbbbbb; 
+}
+ 
+          .blink {
+      animation: blinker 0.6s linear infinite;
+      color: #fff;
+       
+      }
+      @keyframes blinker {  
+      50% { opacity: 30; 
+color:#112a53;}
+      }
+   </style>
+ 
+</head>
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container-fluid">
+
+      <div id="logo" class="pull-left">
+      
+        <!--<h1><a href="#intro" class="scrollto">BizPage</a></h1>
+         Uncomment below if you prefer to use an image logo --><!---->
+         <a href="index.html" class="logoP"><img src="images/logo.png" alt="" title="" /></a>
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <!--<li class="menu-active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contact">Contact</a></li>-->
+          
+                     <li class="Index"><a href="index.html"  class="IndexactNav"><img class="IndexImg" src="images/home-icon2.png" width="15" height="13"></a></li>
+           <li><a href="AboutUs.html" class="AboutactNav">About Us</a></li>
+          
+             <li class="Retail"><a class="RetailactNav" href="RetailSpaces.html">Retail Spaces</a></li>
+             <li class="Office"><a class="OfficeactNav" href="OfficeSpaces.html">Office Spaces</a></li>
+            <li class="Location"><a class="LocationactNav" href="Location.html">Location</a></li>
+            <li class="Specific"><a class="SpecificactNav" href="SpecificationsAmenities.html">Specifications & Amenities</a></li>
+             <li class="Gallery"><a class="GalleryactNav" href="ProgressGallery.html">Progress Gallery</a></li>
+            <li class="Down"><a class="DownactNav" href="Downloads.html">Downloads</a></li>
+          
+        </ul>
+          <div class="disFIp">
+              <div class="row  footerOr" style="padding-left: 10px;">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                      <div class="footerText2 leftP">+265 2422498/99&nbsp;&nbsp;|<br />
+                          +91 85111 33333&nbsp; |
+                          <br />
+                          <a href="mailto:sales@thebarodacrossway.com" style="color: #fff; text-decoration: none;">sales@thebarodacrossway.com</a></div>
+                  </div>
+              </div>
+          </div>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+    <form method="post" action="./OfficeSpaces.html" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTEwMDUyNjYzMjhkZC6gpaCaaqiOnSQ3nL35mTkEMPt03GUy4llcA1ksyKvu" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F9B65FAC" />
+</div>
+    <div>
+        
+    <style>
+             @media (max-width:769px) {
+         .OfficeactNav {
+                 
+                  background: none !important;
+                 
+              }
+          }
+    .Office a {
+        color: #F57F18;
+    }
+
+
+
+    .OfficeactNav {
+        color: #ed7d00 !important;
+        background: url(images/bg.jpg);
+        background-position: top center !important;
+        background-repeat: repeat-x !important;
+    }
+</style>
+    
+    <main id="main">
+
+    <!--==========================
+      Featured Services Section
+    ============================-->
+    <!-- #featured-services -->
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section>
+      <div class="text-center disCo"><img src="images/office-banner.jpg"></div>
+      <div class="text-center disFMo"><img src="images/office-bannerM.jpg"></div>
+      <div class="">
+      <div class="container">
+      <div class="secNavRed secNavMRes2">
+      <div><a href="RetailSpaces.html">RETAIL SPACES</a><a href="OfficeSpaces.html" class="active">OFFICE SPACES</a></div></div>
+      </div>
+      </div>
+      
+      <div class="clear topP30"></div>
+      <div class="container">
+      <div class="text15">DON'T LOOK TOO FAR FOR AN</div>
+      <div class="text15B">IDEAL BUSINESS LOCATION</div>
+      
+      <div class="clear topP30"></div>
+      
+      
+      <div class="row">
+      <div class="col-lg-9 col-md-12 col-xs-12 col-xs-12">
+      <div class="bodytextHome bottomP30">With its large office spaces in a property bustling with energy, The Baroda Crossway will be setting a new benchmark in work culture and productivity. </div>
+      <div class="row vdivide2">
+      <div class="col-lg-4 col-md-4 col-xs-12 col-xs-12" data-aos="fade-up" data-aos-delay="50">
+      <div class="bodytextSmB">Available in a wide and flexible range of sizes to suit individual business needs</div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-xs-12 col-xs-12 rowTP20Mo" data-aos="fade-up" data-aos-delay="150">
+      <div class="bodytextSmB">4 mts high ceiling and large floor plates is a stand-out feature</div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-xs-12 col-xs-12 rowTP20Mo" data-aos="fade-up" data-aos-delay="250">
+      <div class="bodytextSmB">Separate Office Entrances for privacy and higher productivity</div>
+      </div>
+      </div>
+      </div>
+      </div>
+      
+      </div>
+      
+      <div class="OffiBg">
+      <div class="container" data-aos="fade-up">
+      <div class="row">
+      <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+      <div>
+      <!-- /////////////////////// -->
+            <div class="center">
+        <div class="">
+            <div class="carousel" id="carousel-2">
+                <div class="carousel__navigation">
+                    <a class="carousel__nav carousel__nav--right" href="#"><div class="arrow-right"></div></a>
+                    <a class="carousel__nav carousel__nav--left" href="#"><div class="arrow-left"></div></a>
+                </div>
+                <div class="carousel__wrapper">
+                    <div class="carousel__container">
+                        <div class="carousel__content">
+                            <div class="carousel__slider" id="carousel__slider">
+                                <a href="#" class="carousel__item"><img src="images/img1.jpg"/></a>
+                                <a href="#" class="carousel__item"><img src="images/img2.jpg" /></a>
+                                <a href="#" class="carousel__item"><img src="images/img3.jpg" /></a>
+                                <a href="#" class="carousel__item"><img src="images/img8.jpg" /></a>
+                                <a href="#" class="carousel__item"><img src="images/img9.jpg" /></a>
+                                <a href="#" class="carousel__item"><img src="images/img10.jpg" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+           <!-- /////////////////////// -->
+            
+        </div>    	    		
+    </div> 
+            
+           <!-- /////////////////////// -->
+      </div>
+      
+      <div class="clear topP30"></div>
+      <div class="secNav2" data-aos="fade-up" >
+       <div><a href="Downloads.html#FloorPlans" class="active">FLOOR PLANS</a><a href="SpecificationsAmenities.html">SPECIFICATIONS & AMENITIES</a><a href="ProgressGallery.html">PROGRESS GALLERY</a><a href="Downloads.html">DOWNLOADS</a></div></div>
+      
+      </div>
+      </div>
+      
+      <div class="disFIp topP10 text-right"><img src="images/office-bgM.jpg"></div>
+      
+      </div>
+      </div>
+      <div class="container">
+      <div class="borderOr2"></div>
+      </div>
+      </section>
+        </main>
+
+    </div>
+    </form>
+     <div class="clear topP50"></div>
+    
+    <div data-aos="fade-up">
+    <div class="footer disFCo">
+    <div class="container bottomP40">
+    <div class="row topP40">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+    <div><a href="index.html"><img src="images/crossway_logo2.png" class="logoF"></a></div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 rowTP30">
+    <div class="row">
+    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 borderL">
+    <div>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left" valign="top">
+    <ul class="footerLink ulliMar">
+  <li><a href="AboutUs.html">About Us</a></li>
+  <li><a href="RetailSpaces.html">Retail Spaces</a></li>
+  <li><a href="OfficeSpaces.html">Office Spaces</a></li>
+  <li><a href="Location.html">Location</a></li>
+</ul>
+    </td>
+    <td align="left" valign="top">
+    <ul class="footerLink ulliMar">
+  <li><a href="SpecificationsAmenities.html">Specifications & <br>Amenities</a></li>
+  <li><a href="ProgressGallery.html">Progress Gallery </a></li>
+  <li><a href="Downloads.html">Downloads</a></li>
+</ul>
+    </td>
+  </tr>
+</table>
+
+    </div>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 borderL rowTP30">
+    <div class="footerText">Site office</div>
+<div class="footerText topP10">1, Maharani Shantadevi Marg, <br>
+Akota-Dandia Bazaar Road, <br>
+Vadodara - 390001</div>
+    </div>
+    </div>
+    
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 rowTP30">
+    <div><img src="images/Map.png"></div>
+    </div>
+    </div>
+    <div class="topP10 footerLink">RERA: PR / GJ / VADODARA / VADODARA / Others / CAA06481 / 181219 (<a href="https://gujrera.gujarat.gov.in/" target="_blank" style="color:color:#D8D9D9; text-decoration:none;">www.gujrera.gujarat.gov.in</a>) </div>
+    </div>
+   
+    </div>
+    
+    <div class="footer disFIp">
+    <div class="container bottomP40">
+    <div class="row topP20">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 topP20">
+    <div><a href="index.html"><img src="images/crossway_logo2.png" class="logoF"></a></div>
+    </div>
+    
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 topP20">
+    <div><img src="images/Map.png"></div>
+    </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 topP30">
+    <div class="borderL">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="left" valign="top">
+    <ul class="footerLink ulliMar">
+  <li><a href="AboutUs.html">About Us</a></li>
+  <li><a href="RetailSpaces.html">Retail Spaces</a></li>
+  <li><a href="OfficeSpaces.html">Office Spaces</a></li>
+  <li><a href="Location.html">Location</a></li>
+</ul>
+    </td>
+    <td align="left" valign="top">
+    <ul class="footerLink ulliMar">
+  <li><a href="SpecificationsAmenities.html">Specifications & <br>Amenities</a></li>
+  <li><a href="ProgressGallery.html">Progress Gallery </a></li>
+  <li><a href="Downloads.html">Downloads</a></li>
+</ul>
+    </td>
+  </tr>
+</table>
+
+    </div>
+    </div>
+    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 borderL topP30">
+    <div class="footerText">Site office</div>
+<div class="footerText topP10">1, Maharani Shantadevi Marg, <br>
+Akota-Dandia Bazaar Road, <br>
+Vadodara - 390001</div>
+    </div>
+    </div>
+    <div class="topP10 footerLink">RERA: PR / GJ / VADODARA / VADODARA / Others / CAA06481 / 181219 (<a href="https://gujrera.gujarat.gov.in/" target="_blank" style="color:color:#D8D9D9; text-decoration:none;">www.gujrera.gujarat.gov.in</a>) </div>
+    </div>
+    
+    </div>
+    
+    <div class="footerOr">
+    <div class="container">
+    <div class="row">
+     <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12">
+         <div class="footerText2">+265 2422498/99&nbsp;&nbsp;|&nbsp;&nbsp;+91 85111 33333&nbsp; | &nbsp;<a href="mailto:sales@thebarodacrossway.com" style="color: #fff; text-decoration: none;">sales@thebarodacrossway.com</a>&nbsp;|&nbsp;&nbsp;<a href="mailto:sales@thebarodacrossway.com" class="blink">Enquire Now</a></div>
+        
+    </div
+    <div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 alignRL topP10R">
+    <div class="alignRL"><img src="images/instagram.png">&nbsp; &nbsp;<img src="images/facebook.png"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="footerGr alignRL">
+    <div class="container alignRL copyright">© 2019 Crossway. All Rights Reserved.</div>
+    </div>
+    </div>
+    
+  
+ <!--==========================
+    Footer
+  ============================-->
+  <!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <!-- JavaScript Libraries 
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>-->
+  <!-- <script src="lib/owlcarousel/owl.carousel.min.js"></script>-->
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  
+  <script src="accordion/jquery111.js"></script>
+<script src="accordion/jquery-ui.js"></script>
+<script type="text/javascript">
+$(function() {
+        $("#accordion").accordion({
+			active: false,
+            autoHeight: false,
+            collapsible: true,
+            heightStyle: "content",
+            animate: 300 // collapse will take 300ms
+        });
+        $('#accordion div').bind('click',function(){
+            var self = this;
+            setTimeout(function() {
+                theOffset = $(self).offset();
+                $('body,html').animate({ scrollTop: theOffset.top - 200 });
+            }, 310); // ensure the collapse animation is done
+        });
+});
+</script>
+
+<script src="animation/aos.js"></script>
+<script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+
+      setInterval(addItem, 300);
+
+      var itemsCounter = 1;
+      var container = document.getElementById('aos-demo');
+
+      function addItem () {
+        if (itemsCounter > 42) return;
+        var item = document.createElement('div');
+        item.classList.add('aos-item');
+        item.setAttribute('data-aos', 'fade-up');
+        item.innerHTML = '<div class="aos-item__inner"><h3>' + itemsCounter + '</h3></div>';
+        container.appendChild(item);
+        itemsCounter++;
+      }
+    </script>
+</body>
+</html>
